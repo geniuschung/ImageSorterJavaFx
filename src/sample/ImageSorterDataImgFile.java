@@ -18,6 +18,8 @@ public class ImageSorterDataImgFile {
     public static final int TAG_TYPE_CREATE_DATE = 306;
     private File orgFile;
     private String createDt;
+    private String createYear;
+    private String createMonth;
 
 
     public ImageSorterDataImgFile(File orgFile) throws Exception{
@@ -28,7 +30,8 @@ public class ImageSorterDataImgFile {
             Collection<Tag> tags = dir.getTags();
             for(Tag tag : tags){
                 if(tag.getTagType() == this.TAG_TYPE_CREATE_DATE){
-                    this.createDt = tag.getDescription().substring(0,10).replaceAll(":","-" );;
+                    this.createDt = tag.getDescription().substring(0,10);
+                    generateImageDateInfo();
                     break;
                 }
             }
@@ -37,7 +40,14 @@ public class ImageSorterDataImgFile {
                 BasicFileAttributes attrs = Files.readAttributes(orgFile.toPath(), BasicFileAttributes.class);
                 FileTime time = attrs.creationTime();
                 this.createDt = time.toString().substring(0,10);
+                generateImageDateInfo();
             }
         }
     }
+
+
+	private void generateImageDateInfo() {
+		this.createYear = this.createDt.substring(0, 4);
+		this.createMonth = this.createDt.substring(5, 7);
+	}
 }

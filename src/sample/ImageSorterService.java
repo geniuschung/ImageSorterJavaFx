@@ -94,18 +94,28 @@ public class ImageSorterService {
     }
 
     public File getTarDir(ImageSorterDataImgFile imageSorterDataImgFile){
-        File targetLeafDir = new File(imageSorterData.getTarDir(),imageSorterDataImgFile.getCreateDt());
-        if(!imageSorterData.getTarDir().exists()){
-            imageSorterData.getTarDir().mkdir();
-        }
+        File targetLeafYearDir = new File(imageSorterData.getTarDir(),imageSorterDataImgFile.getCreateYear());
+        File targetLeafMonthDir = new File(targetLeafYearDir,imageSorterDataImgFile.getCreateMonth());
+        
+        checkTargetDir(targetLeafYearDir, targetLeafMonthDir);
 
-        if(!targetLeafDir.exists()){
-            targetLeafDir.mkdir();
-        }
-
-        return targetLeafDir;
+        return targetLeafMonthDir;
 
     }
+
+	private void checkTargetDir(File targetLeafYearDir, File targetLeafMonthDir) {
+		if(!imageSorterData.getTarDir().exists()){
+            imageSorterData.getTarDir().mkdir();
+        }
+        
+        if(!targetLeafYearDir.exists()) {
+        	targetLeafYearDir.mkdir();
+        }
+
+        if(!targetLeafMonthDir.exists()){
+        	targetLeafMonthDir.mkdir();
+        }
+	}
 
     public void chooseOrgDir(Stage stage, TextField orgDirTxt){
         imageSorterData.setOrgDir(getDir(stage));
