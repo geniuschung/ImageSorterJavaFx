@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ImageSorterJavaFx:jar">
+    <output-path>$USER_HOME$</output-path>
+    <root id="archive" name="ImageSorterJavaFx.jar">
+      <element id="module-output" name="ImageSorterJavaFx" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/xmpcore-5.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/lombok.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/metadata-extractor-2.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

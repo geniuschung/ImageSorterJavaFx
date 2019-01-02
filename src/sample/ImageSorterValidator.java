@@ -1,7 +1,7 @@
 package sample;
 
 public class ImageSorterValidator {
-    public void checkImagArrange(ImageSorterData imageSorterData){
+    public void checkImagArrange(ImageSorterData imageSorterData) throws Exception{
         if(imageSorterData.getOrgDir() == null){
             throw new Exception("원본 디렉토리 선택");
         }

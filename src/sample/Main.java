@@ -15,12 +15,14 @@ public class Main extends Application {
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
 
         primaryStage.setTitle("Geniuschung's Image Arrangement");
-        primaryStage.setScene(new Scene(root, 400, 275));
+        primaryStage.setScene(new Scene(root, 400, 400));
 
-        Controller controller = fxmlLoader.getController();
-        controller.setStage(primaryStage);
+
+
 
         primaryStage.show();
+        Controller controller = fxmlLoader.getController();
+        controller.setStage(primaryStage);
     }
 
 

@@ -8,6 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextArea?>
 <GridPane alignment="center" hgap="10.0" prefHeight="130.0" prefWidth="673.0" vgap="5.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 
    <rowConstraints>
@@ -29,17 +30,23 @@
       <TextField id="tarDirTxt" fx:id="tarDirTxt" disable="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Button fx:id="selTarDir" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#openSelTarDir" text="선택" GridPane.columnIndex="2" GridPane.rowIndex="1" />
 
-      <HBox GridPane.rowIndex="3" GridPane.columnIndex="0"
-
-            GridPane.columnSpan="3" GridPane.hgrow="ALWAYS"
-
-            alignment="CENTER" spacing="20.0" >
+      <HBox GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="3" GridPane.hgrow="ALWAYS" alignment="CENTER" spacing="20.0" >
 
          <children>
             <Button text="이미지 정리" id="imgArrangmentButton" fx:id="imgArrangmentButton" onMouseClicked="#goImgArrange"/>
             <Button text="취소" id="cancleButton" fx:id="cancleButton" onMouseClicked="#cancle"/>
          </children>
       </HBox>
+
+      <Label prefHeight="22.0" prefWidth="84.0" text="로그" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+
+      <HBox GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="3" GridPane.hgrow="ALWAYS" alignment="CENTER" spacing="20.0" >
+
+         <children>
+            <TextArea text="" id="logArea" fx:id="logArea"/>
+         </children>
+      </HBox>
+
 
    </children>
 </GridPane>
