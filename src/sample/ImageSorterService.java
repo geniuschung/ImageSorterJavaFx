@@ -24,6 +24,8 @@ public class ImageSorterService {
     private ImageSorterValidator imageSorterValidator = new ImageSorterValidator();
 
     public void goImgArrange(){
+        int copyCnt = 0;
+        int skipCnt = 0;
         try {
             imageSorterValidator.checkImagArrange(imageSorterData);
             orgFiles = getImgFiles();
@@ -32,14 +34,29 @@ public class ImageSorterService {
                 File tarDir = getTarDir(imageSorterDataImgFile);
                 if(checkTarFile(orgFile, tarDir)) {
                     copyImgFile(orgFile, tarDir);
-                    logArea.setText(orgFile.getName() + "복사");
+                    logAdd(orgFile.getName() + "복사");
+                    copyCnt++;
+                    //logArea.setText(logArea.getText()+orgFile.getName() + "복사");
                 }else {
-                    logArea.setText(orgFile.getName()+"존재함 skip");
+                    logAdd(orgFile.getName() + "존재함 skip");
+                    skipCnt++;
+                    //logArea.setText(logArea.getText()+orgFile.getName()+"존재함 skip");
                 }
             }
+            logAdd("이미지 정리 완료 ========>");
+            logAdd("이미지 정리 건수 : " + copyCnt);
+            logAdd("이미지 Skip 건수 : "+ skipCnt);
         }catch(Exception e){
             e.printStackTrace();
         }
+
+    }
+
+    public void logAdd(String log){
+        StringBuffer logBuffer = new StringBuffer(logArea.getText());
+        logBuffer.append(log);
+        logBuffer.append("\n");
+        logArea.setText(logBuffer.toString());
 
     }
 

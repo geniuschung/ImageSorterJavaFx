@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Main  extends Application  {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -14,15 +14,16 @@ public class Main extends Application {
         Parent root = fxmlLoader.load();
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
 
+        Controller controller = fxmlLoader.getController();
+        controller.setStage(primaryStage);
+
         primaryStage.setTitle("Geniuschung's Image Arrangement");
         primaryStage.setScene(new Scene(root, 400, 400));
 
-
-
+        controller.setLogArea();
 
         primaryStage.show();
-        Controller controller = fxmlLoader.getController();
-        controller.setStage(primaryStage);
+
     }
 
 

@@ -23,7 +23,7 @@ public class Controller {
     @FXML
     protected TextArea logArea;
 
-    private ImageSorterService imageSorterService;
+    private ImageSorterService imageSorterService = new ImageSorterService();
 
     private ImageSorterValidator imageSorterValidator = new ImageSorterValidator();
 
@@ -36,31 +36,29 @@ public class Controller {
         return stage;
     }
 
-    public Controller(){
-        System.out.println("controller 생성자");
 
+    public void setLogArea(){
         imageSorterService.setLogArea(logArea);
-        imageSorterService.logArea.setText("controller 생성자");
     }
 
     public void openSelOrgDir(){
-        logArea.setText("openSelOrgDir");
+        imageSorterService.logAdd("openSelOrgDir");
         imageSorterService.chooseOrgDir(stage, orgDirTxt);
 
     }
 
     public void openSelTarDir(){
-        logArea.setText("openSelTarDir");
+        imageSorterService.logAdd("openSelTarDir");
         imageSorterService.chooseTarDir(stage, tarDirTxt);
     }
 
     public void goImgArrange(){
-        logArea.setText("goImgArrange");
+        imageSorterService.logAdd("goImgArrange");
         imageSorterService.goImgArrange();
     }
 
     public void cancle(){
-        logArea.setText("cancle");
+        imageSorterService.logAdd("cancle");
         System.exit(0);
     }
 
