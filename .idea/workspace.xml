@@ -7,16 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ImageSorterJavaFx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ImageSorterJavaFx_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ImageSorterJavaFx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ImageSorterJavaFx.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageSorterJavaFx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ImageSorterJavaFx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/ImageSorterService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/ImageSorterService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/ImageSorterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/ImageSorterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImageSorterJavaFx/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/ImageSorterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ImageSorterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#793#794#0" expanded="true" />
@@ -123,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageSorterService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImageSorterService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+            <state relative-caret-position="157">
+              <caret line="135" column="50" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
@@ -140,8 +137,11 @@
       <file leaf-file-name="ImageSorterDataImgFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterDataImgFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="81">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,9 +199,9 @@
         <option value="$PROJECT_DIR$/src/sample/ImageSorterDataImgFile.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ImageSorterData.java" />
-        <option value="$PROJECT_DIR$/src/sample/ImageSorterService.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ImageSorterService.java" />
       </list>
     </option>
   </component>
@@ -219,10 +219,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="246" />
-    <option name="y" value="44" />
+    <option name="x" value="153" />
+    <option name="y" value="139" />
     <option name="width" value="1547" />
-    <option name="height" value="657" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -277,9 +277,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.35650623" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
@@ -408,23 +408,24 @@
       <workItem from="1546393919565" duration="3890000" />
       <workItem from="1546398976356" duration="138000" />
       <workItem from="1546399162086" duration="7128000" />
-      <workItem from="1546410159181" duration="1911000" />
+      <workItem from="1546410159181" duration="9430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23361000" />
+    <option name="totallyTimeSpent" value="30880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="246" y="44" width="1547" height="657" extended-state="0" />
+    <frame x="153" y="139" width="1547" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4950166" visible="true" weight="0.3625" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4883721" visible="true" weight="0.6737288" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50498337" side_tool="true" visible="true" weight="0.3625" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5116279" side_tool="true" visible="true" weight="0.6737288" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07774086" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966776" weight="0.3903819" />
@@ -432,7 +433,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2179402" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2179402" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24983388" />
@@ -878,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -909,25 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterDataImgFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4530">
@@ -938,7 +913,24 @@
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterDataImgFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -947,12 +939,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#793#794#0" expanded="true" />
             <element signature="e#847#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ImageSorterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="135" column="50" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -962,12 +966,20 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
           <last-edited>ImageSorterJavaFx</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35650623" />
+                <option value="0.1150748" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -979,7 +991,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35650623" />
+                <option value="0.17468806" />
               </list>
             </option>
           </splitter-proportions>
@@ -1002,7 +1014,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35650623" />
+                <option value="0.1150748" />
               </list>
             </option>
           </splitter-proportions>
@@ -1014,7 +1026,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35650623" />
+                <option value="0.1150748" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1025,7 +1038,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35650623" />
+                <option value="0.17468806" />
               </list>
             </option>
           </splitter-proportions>

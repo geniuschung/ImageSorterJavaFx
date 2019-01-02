@@ -32,21 +32,24 @@ public class ImageSorterService {
             for (File orgFile : orgFiles) {
                 ImageSorterDataImgFile imageSorterDataImgFile =  new ImageSorterDataImgFile(orgFile);
                 File tarDir = getTarDir(imageSorterDataImgFile);
-                if(checkTarFile(orgFile, tarDir)) {
+                if (checkTarFile(orgFile, tarDir)) {
                     copyImgFile(orgFile, tarDir);
                     logAdd(orgFile.getName() + "복사");
                     copyCnt++;
                     //logArea.setText(logArea.getText()+orgFile.getName() + "복사");
-                }else {
+                } else {
                     logAdd(orgFile.getName() + "존재함 skip");
                     skipCnt++;
                     //logArea.setText(logArea.getText()+orgFile.getName()+"존재함 skip");
                 }
             }
+
             logAdd("이미지 정리 완료 ========>");
             logAdd("이미지 정리 건수 : " + copyCnt);
-            logAdd("이미지 Skip 건수 : "+ skipCnt);
+            logAdd("이미지 Skip 건수 : " + skipCnt);
+
         }catch(Exception e){
+            logAdd(e.getMessage());
             e.printStackTrace();
         }
 
